@@ -2,7 +2,12 @@ body{
     background: rgba(0, 0, 255, 0.18);
 }
 #todo-container{
-    background: rgba(128, 128, 128, 0.194);
+    border:2px solid rgba(128, 128, 128, 0.194);
     width:360px;
     margin: 0 auto;
+    padding: 30px;
+}
+.completed{
+    color: blue;
+    text-decoration: line-through;
 }
